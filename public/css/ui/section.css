@@ -1,0 +1,40 @@
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #353535;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 10vh 2rem 0;
+  box-sizing: border-box;
+}
+
+.section .section-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #cc8500;
+  margin: 0.8rem 0 0;
+}
+
+.section .section-description {
+  font-size: 1.4rem;
+  color: #EDEDED;
+  margin: 0.4rem 0 0;
+}

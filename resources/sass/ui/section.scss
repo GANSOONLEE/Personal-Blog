@@ -1,0 +1,26 @@
+@import url("../reset.scss");
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #353535;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10vh 2rem 0;
+    box-sizing: border-box;
+}
+.section .section-title{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: rgb(204, 133, 0);
+    margin: .8rem 0 0;
+}
+.section .section-description{
+    font-size: 1.4rem;
+    color: #EDEDED;
+    margin: .4rem 0 0;
+}
